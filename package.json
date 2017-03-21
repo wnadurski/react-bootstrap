@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "test",
-    "start-dev": "webpack-dev-server -d --progress --colors"
+    "start-dev": "webpack-dev-server -d --progress --colors --content-base app/"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,12 @@
     "webpack-dev-server": "^2.4.2"
   },
   "dependencies": {
+    "history": "^4.6.1",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router-dom": "^4.0.0",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.10.0"
   }
 }
